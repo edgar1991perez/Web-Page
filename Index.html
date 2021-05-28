@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<hmtl lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="style.css">
+     <title>Me, Myself and I</title>   
+    </head>
+    <body>
+        <section class="showcase">
+            <header>
+                <h2 class="logo">Edgardo Perez</h2>
+                <div class="toggle"></div>
+            </header>
+             <video src="video.mp4" muted loop autoplay></video> 
+            <div class="overlay"></div>
+            <h2>Welcome</h2>
+            <h3>Success is a Journey, not a Destination.</h3>
+            <p>Hello Everyone, Welcome to my first web page. This looks
+               a little rough but we'll make it better. Right now we're in 
+               the fun part of learning our first steps in this world of coding. 
+            </p>
+            <!-- <a href="#">Explore</a> -->
+        </section>
+
+        <div class="menu">
+            <ul>
+                <li><a href="https://edgar1991perez.github.io/Bio/">Bio</a></li>
+                <li><a href="https://edgar1991perez.github.io/PacMan-Exercise/">PacMan Project</a></li>
+                <li><a href=" https://edgar1991perez.github.io/Eyes-Exercise/">Eye Exercise</a></li>
+                <li><a href="https://edgar1991perez.github.io/Bus-Tracker/">Real Time Bus Tracker</a></li>
+                <!-- <li><a href="#">Tindog</a></li> -->
+            </ul>
+        </div>
+
+        <script>
+            const menuToggle = document.querySelector('.toggle');
+      const showcase = document.querySelector('.showcase');
+
+      menuToggle.addEventListener('click', () => {
+        menuToggle.classList.toggle('active');
+        showcase.classList.toggle('active');
+      })
+        </script>
+
+    </body>
+</hmtl>
